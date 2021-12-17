@@ -1,0 +1,124 @@
+body {
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+
+#header {
+    margin-left:70px;
+    margin-right:70px;
+    display:flex;
+}
+
+#logo {
+    margin-top:25px;
+    color: white;
+    font-weight: 900;
+    margin-right: 50px;
+}
+
+#navigation{
+    margin-top:25px;
+}
+
+#navigation a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    display:inline;
+}
+
+#sign_in {
+    background: #C19BFF;
+    padding:10px;
+}
+
+#soc {
+    margin-top:25px;
+    position:absolute;
+    right:70px;
+    top:0px;
+}
+
+#soc a {
+    margin-left:20px;
+}
+
+/* Main block */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+#main {
+    left:0;
+    right:0;
+    margin:0 auto;
+    top:50%;
+    transform:translate(0, -50%);
+    position:absolute;
+    width:550px;
+}
+
+#main_inner {
+    text-align:center;
+}
+
+#main_logo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size:60px;
+    color:white;
+    text-shadow:black 10px 10px 0.29em;
+    font-weight:900;
+    display:flex;
+    justify-content:center;
+}
+
+#a {
+    font-family: 'Archivo Black', sans-serif;
+    font-size:30px;
+    color:#7F54C7;
+    margin-bottom:30px;
+    display:flex;
+    justify-content:center;
+    word-spacing:normal;
+}
+
+#b {
+    font-weight:600;
+    margin-left:10px;
+}
+
+#button {
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+    background:#8955E1;
+    padding:20px;
+    border-radius:20px;
+}
+
+/* Test */
+
+#test {
+    width:300px;
+    text-align:right;
+    bottom:0;
+    right:0;
+}
+
+#c {
+    color:white;
+    font-weight:900;
+    margin-bottom:30px;
+    position:absolute;
+    right:70px;
+    bottom:150px;
+}
+
+#d {
+    color:white;
+    position:absolute;
+    right:70px;
+    bottom:70px;
+    left:1000px;
+}
