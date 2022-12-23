@@ -3,12 +3,8 @@
 
 body{
     background: url('background.jpg') no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 30px 70px;
-    /*padding-right: calc(20px + (70 - 20) * ((100vw - 320px) / (1778 - 320)));
-    padding-left: calc(20px + (70 - 20) * ((100vw - 320px) / (1778 - 320)));
-    padding-top: calc(15px + (30 - 20) * ((100vw - 320px) / (1778 - 320)));
-    padding-bottom: calc(15px + (30 - 20) * ((100vw - 320px) / (1780 - 320)));*/
 }
 
 /* Header */
@@ -84,13 +80,13 @@ body{
 }
 
 #menu_button:checked ~ * .line1{
-    visibility: hidden;
-    transition: 0s all;
+    opacity: 0;
+    transition: 0.3s all;
 }
 
 #menu_button:checked ~ * .line4{
-    visibility: hidden;
-    transition: 0s all;
+    opacity: 0;
+    transition: 0.3s all;
 }
 
 #menu_button:checked ~ * .line2{
