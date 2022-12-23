@@ -5,6 +5,7 @@ body{
     background: url('background.jpg') no-repeat;
     background-size: cover;
     padding: 30px 70px;
+    background-position: center;
 }
 
 /* Header */
