@@ -191,7 +191,7 @@ img {
 
 .group1 {
     box-sizing: border-box;
-    background: url('../Pictures/group 1/background.png') no-repeat;
+    background: url('../Pictures/Group 1/background.png') no-repeat;
     background-position: 100% 0;
     padding: calc(100px + (200 - 100) * ((100vw - 320px) / (1440 - 320))) calc(20px + (90 - 20) * ((100vw - 320px) / (1440 - 320))) 0;
 }
@@ -353,7 +353,7 @@ img {
 .group2 {
     margin-top: calc(100px + (600 - 100) * ((100vw - 320px) / (1440 - 320)));
     padding: 0 calc(50px + (200 - 50) * ((100vw - 320px) / (1440 - 320)));
-    background: url('../Pictures/group 2/background.png') no-repeat;
+    background: url('../Pictures/Group 2/background.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -514,7 +514,7 @@ img {
     justify-content: space-between;
     margin-top: calc(100px + (325 - 100) * ((100vw - 320px) / (1440 - 320)));
     padding: 0 calc(50px + (160 - 50) * ((100vw - 320px) / (1440 - 320)));
-    background: url('../Pictures/group 3/background.png') no-repeat;
+    background: url('../Pictures/Group 3/background.png') no-repeat;
     background-position: 0 100%;
     background-size: contain;
 }
