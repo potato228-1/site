@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    min-width: 1400px;
+}
+
+
+
+/* Title page */
+
+.titlePage{
+    background: url('Pictures/titlePage_background.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.titlePage_inner{
+    height: 100;
+    width: 100%;
+    padding: 0 0 30rem;
+    background: rgba(0, 0, 0, 0.5);
+
+    animation-name: title_background;
+    animation-duration: 1s;
+}
+
+.titlePage_content{
+    margin: 0 12.5rem;
+    padding: 3.125rem 0 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    position: relative;
+
+    animation-name: header;
+    animation-duration: 1s;
+}
+
+.nav-item{
+    color: white;
+    font-weight: 400;
+    margin-left: 3.4rem;
+    font-size: 0.875rem;
+}
+
+.mainTitle{
+    text-align: center;
+    font-size: 6rem;
+    line-height: 5rem;
+}
+
+.mainTitle_part1{
+    color: #FF5800;
+    position: relative;
+
+    animation-name: title_part1;
+    animation-duration: 1s;
+}
+
+.mainTitle_part2{
+    color: transparent;
+    -webkit-text-stroke: 0.18rem white;
+    position: relative;
+
+    animation-name: title_part2;
+    animation-duration: 1s;
+}
+
+@keyframes header{
+    0%{
+        top: -100rem;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+@keyframes title_part1{
+    0%{
+        left: -100rem;
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes title_part2{
+    0%{
+        right: -100rem;
+    }
+
+    100%{
+        right: 0;
+    }
+}
+
+@keyframes title_background {
+    0%{
+        background: black;
+    }
+
+    100%{
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+
+/* About us */
+
+.aboutUs{
+    padding: 7rem 12.5rem;
+}
+
+.subtitle_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    opacity: 0.5;
+    font-size: 1.25rem;
+}
+
+.subtitle_text{
+    color: #1D1D1D;
+    font-weight: 400;
+}
+
+.aboutUs_subtitle_text{
+    color: #FF5800;
+    font-weight: 500;
+}
+
+.aboutUs_title_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutUs_title{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.aboutUs_button{
+    border: solid black 0.1rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 1.25rem;
+    padding: 0.7rem 2.1rem;
+    color: #1D1D1D;
+    font-weight: 300;
+    gap: 0.8rem;
+}
+
+.aboutUs_button img{
+    width: 3rem;
+}
+
+.aboutUs_description{
+    font-weight: 500;
+    margin: 3.1rem 0 0;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 480px) {
+    .aboutUs_description{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+/* Advantages */
+
+.advantages{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.advantages_img_container{
+    height: 60rem;
+    width: 70rem;
+    background-image: url('Pictures/Advantages/pic1.jpg');
+    background-position: 50% center;
+    background-size: cover;
+    transition: 0.3s all;
+}
+
+.advantages_title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0 0 1rem;
+}
+
+.advantages_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 60rem;
+}
+
+.advantages_item{
+    flex: 20rem;
+    opacity: 0.5;
+    max-width: 20rem;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.currentAdvantage{
+    opacity: 1;
+}
+
+.currentAdvantage .item_title{
+    color:#FF5800;
+}
+
+.item_title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.6rem 0;
+    transition: 0.3s all;
+}
+
+.item_description{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+/* Products */
+
+.products{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    justify-content: space-between;
+}
+
+.products *{
+    transition: 0.3s all;
+}
+
+.products_options{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 0 auto;
+}
+
+.products_option{
+    color: transparent;
+    -webkit-text-stroke: #1D1D1D 0.1rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    white-space: nowrap;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.currentOption{
+    color: #FF5800;
+    -webkit-text-stroke: 0;
+}
+
+.products_picture_container{
+    height: 55rem;
+    width: 45rem;
+    background: url('Pictures/Products/pic1.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% center;
+}
+
+.products_inner{
+    padding: 3rem 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%
+}
+
+.products_description{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    display: none;
+}
+
+.currentDescription{
+    display: block;
+}
