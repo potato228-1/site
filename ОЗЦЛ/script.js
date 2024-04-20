@@ -70,7 +70,7 @@ setInterval(() => {
         document.querySelector('.item6').classList.add('currentAdvantage');
     }
     b += 1;
-}, 5000)
+}, 2000)
 
 
 
@@ -108,7 +108,7 @@ setInterval(() => {
         i += 1;
         return;
     }
-}, 5000);
+}, 2000);
 
 optionsList.addEventListener('mouseover', (event) => {
     if(event.target.classList.contains('products_option')){
