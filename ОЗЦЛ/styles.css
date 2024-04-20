@@ -190,7 +190,7 @@ html{
 .aboutUs_description{
     font-weight: 500;
     margin: 3.1rem 0 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 @media (max-width: 576px) {
